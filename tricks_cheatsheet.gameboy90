@@ -1,0 +1,5 @@
+1.first trick is yank all line at any position of the target line =>
+    yy [i just can't get how it works,try it];also ,you can try y$,but this require the curser position at the start of the line.
+2.yank the whole file =>
+    you can press gg to locate your curser to the start of the file,then press yG to copy all the content from the start to end(G located) to buffer.
+    the SV(shirt for stackoverflow) question url here:http://stackoverflow.com/questions/1620018/vi-editor-copy-all-the-lines-to-clipboard/19832192#19832192
